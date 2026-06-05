@@ -1,0 +1,1 @@
+export default { path: "/dev/ttyACM0", baudRate: 9600 };

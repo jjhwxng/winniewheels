@@ -1,0 +1,40 @@
+.camera-container {
+  text-align: center;
+  margin-top: 40px;
+  color: #ffffff;
+}
+
+.camera-feed {
+  width: 80%;
+  margin: auto;
+}
+
+.camera-stream {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(210, 101, 54, 0.4);
+}
+
+.camera.placeholder,
+.camera.off {
+  background-color: #ff2b0a63;
+  padding: 40px;
+  border-radius: 12px;
+  color: #ffffff;
+}
+
+.toggle-button {
+  margin-top: 25px;
+  padding: 12px 20px;
+  background-color: #ffd000;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.toggle-button:hover {
+  background-color: #ffd00080;
+}

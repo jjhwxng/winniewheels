@@ -1,0 +1,8 @@
+### Move Motors
+POST http://localhost:3000/api/robot/move
+Content-Type: application/json
+
+{ "speed": 120, "direction": "FORWARD" }
+
+### Get Sensors
+GET http://localhost:3000/api/robot/sensors
